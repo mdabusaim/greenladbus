@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway-font{
+    font-family: "Raleway", sans-serif;
+}
+#seat1{
+    margin-left: 50px;
+}
+#seat{
+    background-color: #0307121a;
+    padding: 1rem;
+    
+    text-align: center;
+    width: 60px;
+    margin-right: 10px;
+}
+.flex-container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 10px; 
+}
+
+.div-new {
+   
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid div[id='seat'].selected {
+    background-color: green;
+    color: rgb(24, 192, 60); 
+}
